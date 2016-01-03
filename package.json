@@ -1,0 +1,25 @@
+{
+  "name": "pricechecker",
+  "version": "0.0.1",
+  "description": "polls amazon prices and delivers alerts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/deenaariff/pricechecker"
+  },
+  "keywords": [
+    "amazon",
+    "node.js"
+  ],
+  "author": "Deen Aariff",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "js2xml": "^1.0.4",
+    "nodemailer": "^1.11.0",
+    "xml2js": "^0.4.15"
+  }
+}
